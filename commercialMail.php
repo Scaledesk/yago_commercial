@@ -15,8 +15,14 @@ $subject = "Request Free Design Consultation ";
 $mailheader = 'From: info@yagotimber.com' . "\r\n" .
     'Reply-To: '.$email."\r\n" .
     'X-Mailer: PHP/' . phpversion();
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+if(mail($recipient, $subject, $formcontent, $mailheader)){
+
+	header('Location:thankyou.html');
+} else{
+  header('Location:commercial.php');
+
+}
 // echo "<script>alert('Thank You!.We will get to you asap.')</script>";
- header('Location:thankyou.html')
+ 
 }
 ?>

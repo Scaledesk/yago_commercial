@@ -463,6 +463,15 @@ h1.thank-you-text {
     }
     
 }
+.text-center{
+        text-align: justify !important;
+}
+
+.home-page-text{
+        display: inline-block;
+       padding: 23px;
+
+}
 /*.morelink {
     display: block;
 }*/

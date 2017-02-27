@@ -104,14 +104,14 @@
 	<div class="container">
     	<div class="slider"><img src="images/banner01-1.jpg"/></div>
 
-       <div class="content text-center" > 
+       <div class="content text-center home-page-text" style="padding-top:0px !important; "> 
 
           <br>
             <br>
       
-       <h3>Commercial Interior Designer in Delhi, Gurgaon and Noida</h3>
+       <h3 style="text-align:center;">Commercial Interior Designer</h3>
          <span class="">
-           Growing immensely in the markets YAGOTIMBER is now tremendously working towards increasing its services in long run. With around 12 years of advance experience in field of commercial spaces planning and designing with successfully covering 200 projects total of around 1.5 million sq. feet in 10 different states, Yagotimber is ready to exploit the commercial designing sector with its professional services.
+          Yagotimber is an interior designing company providing turnkey services for modern commercial space interiors. Backed by a team having 12 years of advance experience in field of commercial spaces planning and designing with successfully covering 200 projects and a total of around 1.5 million sq. feet in 10 different states, Yagotimber is ready to exploit the commercial designing sector with its professional services.
          </span>
        </div>
        
@@ -162,8 +162,8 @@
                 </li>
             </ul>
  -->
-           <div class="content text-center">
-             <span>Complete designing assistance for corporate office, hospitality/lounge interiors as well as retail interior. We provide you the full planning and execution for every project. Apart from this a wide range of pre-designed ideas and fully customised design for hospitality and lounge interiors. Yagotimber assists you with highly personalised service with a dedicated designer to cater all your needs.
+           <div class="content text-center home-page-text">
+             <span>We provide complete interior designing assistance for all kind of commercial spaces like office, retail/showroom and hospitality/lounge spaces. We provide end to end services which includes space planning, design conceptualization, 2D/3D views, project estimation, project execution and management.
            </span>
            </div>
         </div>
@@ -178,8 +178,9 @@
                 <li><img src="images/icon08.png" /> Execution</li>
                 <li><img src="images/icon011.png" /> Hand Over</li>
             </ul>
-         <div class="content">
-          <span class="more text-center">We serve the clients the best we can and for this we give them a hit start by providing them a free design consultation from our professionals. After you book the free design consultation we are ready to serve you through a meeting by the designer. With this comes the way we make you understand the design by our 2D&3D designs. After we are done with the design we give you the benefit of pre quotation as this will dispense your way of funding. Now the only thing you are required to do is sit back and relax! As the manufacturing teams will start its execution to beget the result with the pre determine span of time. At last we close our project with the delivery, installing and handing over your domain to you finishing off our work.  
+         <div class="content home-page-text">
+          <span class="more text-center">We serve the clients the best we can and for this we give them a hit start by providing them a design consultation from our professionals. Understanding the requirements of the client and evaluating the space to be designed, a rough estimate is provided. Once the estimate has been approved, the core designing process comes into play and we make the client visualize the space using 2D & 3D layouts. After finalizing the designs an exact or final estimate is made. Now the only thing you are required to do is sit back and relax! The project management team takes over and completes the work as per the finalized designs, material specification and stipulated time. At last we close our project with the delivery, installing and handing over your domain to you finishing off our work.  
+
           </span>
         </div>
        </div>
@@ -214,7 +215,7 @@
                 </div>
                 </div>
 
-     <div class="col-md-12 col-sm-12 col-xs-12  text-center"><span>Under this sector Yagotimber has served well-known brands with its quality services in Delhi, Noida, Gurgaon, Ghaziabad, Mumbai and more cities. We have been connected to our clients with an online project assistant, which is an online tool that keeps you updated about the work status of your project or purchase.
+     <div class="col-md-12 col-sm-12 col-xs-12  text-center home-page-text"><span>Our expert team have served well-known brands in Delhi NCR, Mumbai, Hyderabad, Kolkata and other cities. We have been connected to our clients with an online project assistant, which is a tool that keeps you updated about the work status of your project.
          </span>
         </div>
 
@@ -275,10 +276,10 @@
         </div>
       </div>
 
-    <div class="content text-center">
+    <div class="content text-center home-page-text">
       Some of our clients are:
-ITC at Lucknow and Hyderabad, 17 retail outlets Pan Indiafor ZARA, H&M in Mumbai, Pantaloons, Vavasi, Deutsche Postbank, BAJAJ Alliance, Versace.
-</p>
+      ITC at Lucknow and Hyderabad, 17 retail outlets Pan Indiafor ZARA, H&M in Mumbai, 
+Pantaloons, Vavasi, Deutsche Postbank, BAJAJ Alliance, Versace.
     </div>
     </div>
 
@@ -381,7 +382,7 @@ $(document).ready(function () {
 <script type="text/javascript">
 $(document).ready(function() {
     // Configure/customize these variables.
-    var showChar = 200;  // How many characters are shown by default
+    var showChar = 400;  // How many characters are shown by default
     var ellipsestext = "...";
     var moretext = "Show more >";
     var lesstext = "Show less";
